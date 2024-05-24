@@ -1,0 +1,39 @@
+import pandas as pd
+import plotly.express as px
+
+def plotly_mapping():
+    # Corrected dataset'i oku
+    df = pd.read_csv('/content/ingredientsnumber.csv')
+
+    # Define a custom color scale with more steps
+    custom_color_scale = [
+        (0.0, "rgb(12,51,131)"),
+        (0.1, "rgb(10,136,186)"),
+        (0.2, "rgb(242,211,56)"),
+        (0.3, "rgb(242,143,56)"),
+        (0.4, "rgb(217,30,30)"),
+        (0.5, "rgb(179,0,0)"),
+        (0.6, "rgb(128,0,38)"),
+        (0.7, "rgb(179,88,6)"),
+        (0.8, "rgb(248,184,139)"),
+        (0.9, "rgb(140,81,10)"),
+        (1.0, "rgb(84,48,5)")
+    ]
+
+    # Choropleth haritasını oluştur
+    fig = px.choropleth(
+        df,
+        locations="ISO-3 Code",
+        color="Ingredients Number",
+        hover_name="Country",
+        color_continuous_scale=custom_color_scale,  # Özel renk paletini kullanarak
+        range_color=(df["Ingredients Number"].min(), df["Ingredients Number"].max()),
+        color_continuous_midpoint=df["Ingredients Number"].median(),
+        projection="natural earth",
+        title="Ingredients Variety by Countries"
+    )
+
+    # Haritayı göster
+    fig.show()
+
+plotly_mapping()
