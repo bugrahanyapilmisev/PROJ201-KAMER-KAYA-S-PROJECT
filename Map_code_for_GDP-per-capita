@@ -3,7 +3,7 @@ import plotly.express as px
 
 def plotly_mapping():
     # Corrected dataset'i oku
-    df = pd.read_csv('/content/minidataset.csv')
+    df = pd.read_csv('/content/GDP_per_capita.csv')
 
     # Define a custom color scale with more steps
     custom_color_scale = [
