@@ -7,7 +7,7 @@ import dash
 dash.register_page("update_ingredients_map")"""
 
 def create_ingredients_variety_map():
-    df = pd.read_csv(r'C:\Users\kosot\OneDrive\Masaüstü\PROJ201\pages\ingredients_variety.csv')
+    df = pd.read_csv(r'ingredients_variety.csv')
     custom_color_scale = [
         (0.0, "rgb(12,51,131)"),
         (0.1, "rgb(10,136,186)"),
