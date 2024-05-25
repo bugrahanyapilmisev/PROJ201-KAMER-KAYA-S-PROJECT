@@ -7,7 +7,7 @@ import dash
 dash.register_page("update_gdp_map")"""
 
 def create_gdp_per_capita_map():
-    df = pd.read_csv(r'C:\Users\kosot\OneDrive\Masaüstü\PROJ201\pages\GDP_per_capita.csv')
+    df = pd.read_csv(r'GDP_per_capita.csv')
     custom_color_scale = [
         (0.0, "rgb(12,51,131)"),
         (0.1, "rgb(10,136,186)"),
