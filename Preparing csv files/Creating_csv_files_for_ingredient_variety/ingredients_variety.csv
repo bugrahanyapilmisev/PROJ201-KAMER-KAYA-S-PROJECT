@@ -1,0 +1,131 @@
+Country,Ingredients Variety,ISO-3 Code
+Egypt,501,EGY
+Nigeria,1894,NGA
+Morocco,1214,MAR
+China,2984,CHN
+Thailand,1854,THA
+Indonesia,622,IDN
+Bangladesh,88,BGD
+Vietnam,937,VNM
+Israel,105,ISR
+Lebanon,613,LBN
+Philippines,732,PHL
+India,2585,IND
+Korea,844,KOR
+Malaysia,545,MYS
+Turkey,610,TUR
+Japan,1670,JPN
+Pakistan,486,PAK
+Australia,2805,AUS
+Mexico,5060,MEX
+Puerto Rico,489,PRI
+Jamaica,194,JAM
+Cuba,832,CUB
+Argentina,3021,ARG
+Brazil,658,BRA
+Colombia,360,COL
+Chile,431,CHL
+Peru,549,PER
+Russia,985,RUS
+Denmark,546,DNK
+Scotland,1112,GBR
+England,2199,GBR
+UK,497,GBR
+Wales,400,GBR
+Hungary,704,HUN
+Sweden,1390,SWE
+Belgium,606,BEL
+Norway,552,NOR
+Austria,617,AUT
+Greece,2155,GRC
+France,3275,FRA
+Switzerland,1371,CHE
+Portugal,857,PRT
+Italy,5258,ITA
+Poland,820,POL
+Netherlands,897,NLD
+Ireland,2034,IRL
+Germany,1827,DEU
+Spain,1693,ESP
+Finland,263,FIN
+Czech Republic,376,CZE
+US,2964,USA
+Canada,3399,CAN
+Somalia,86,SOM
+Namibia,96,NAM
+Angola,61,AGO
+Libya,150,LBY
+Sudan,94,SDN
+Ethiopia,294,ETH
+Laos,201,LAO
+Nepal,241,NPL
+Cambodia,260,KHM
+Palestine,205,PSE
+Saudi Arabia,270,SAU
+Mongolia,255,MNG
+Iraq,255,IRQ
+New Zealand,1230,NZL
+Honduras,787,HND
+Costa Rica,190,CRI
+Guatemala,199,GTM
+Ecuador,163,ECU
+Venezuela,240,VEN
+Iceland,46,ISL
+Yemen,783.0,YEM
+Omman,783.0,N/A
+Belarus,37,BLR
+Ukraine,37,UKR
+Bulgaria,37,BGR
+Romania,37,ROU
+Moldova,37,MDA
+Luxembourg,37,LUX
+Andorra,37,AND
+Uruguay,775,URY
+Bolivia,775,BOL
+Guyana,775,GUY
+Paraguay,775,PRY
+Algeria,421,DZA
+Benin,421,BEN
+Botswana,421,BWA
+Burkina Faso,421,BFA
+Burundi,421,BDI
+Cabo Verde,421,CPV
+Cameroon,421,CMR
+Central African Republic,421,CAF
+Chad,421,TCD
+Comoros,421,COM
+Congo,421,COG
+Congo Democratic Republic of the,421,COD
+Djibouti,421,DJI
+Equatorial Guinea,421,GNQ
+Eritrea,421,ERI
+Eswatini,421,SWZ
+Gabon,421,GAB
+Gambia,421,GMB
+Ghana,421,GHA
+Guinea,421,GIN
+Guinea-Bissau,421,GNB
+Ivory Coast,421,CIV
+Kenya,421,KEN
+Lesotho,421,LSO
+Liberia,421,LBR
+Madagascar,421,MDG
+Malawi,421,MWI
+Mali,421,MLI
+Mauritania,421,MRT
+Mauritius,421,MUS
+Mozambique,421,MOZ
+Niger,421,NER
+Rwanda,421,RWA
+Sao Tome and Principe,421,STP
+Senegal,421,SEN
+Seychelles,421,SYC
+Sierra Leone,421,SLE
+South Africa,421,ZAF
+South Sudan,421,SSD
+Tanzania,421,TZA
+Togo,421,TGO
+Tunisia,421,TUN
+Uganda,421,UGA
+Zambia,421,ZMB
+Zimbabwe,421,ZWE
