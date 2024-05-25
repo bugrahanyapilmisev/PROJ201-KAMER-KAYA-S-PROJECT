@@ -5,7 +5,7 @@ import dash
 
 
 def create_ready_in_time_map():
-    df = pd.read_csv(r'C:\Users\kosot\OneDrive\Masaüstü\PROJ201\pages\Country_ISO_Average Ready In_Geocultural Region Mini Dataset.csv')
+    df = pd.read_csv(r'Country_ISO_Average Ready In_Geocultural Region Mini Dataset.csv')
     fig = px.choropleth(
         df,
         locations="ISO-3",
